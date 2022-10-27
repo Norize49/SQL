@@ -1,0 +1,85 @@
+.....
+EN Version
+.....
+Step 1 - Open MySQL Shell
+Step 2 - Enter password
+Step 3 - Check databases (with SHOW databases; command)
+Step 4 - Create a new database (CREATE database + name; command)
+Step 5 - Select the desired database (using the USE + name; command)
+Step 6 - Create a table (CREATE table + name command;
+      -> (Id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+      -> different values ​​- Example:
+      -> first_name VARCHAR(20) NOT NULL,
+      -> last_name VARCHAR(30) NOT NULL,
+      -> age INT(3) NULL,
+      -> country VARCHAR(15) NULL,
+      -> nubmer INT(13) NOT NULL );
+Step 7 - Checking the created table (using DESC + name;)
+Step 8 - Create a second table (using the CREATE table orders command
+    -> (Id INT PRIMARY KEY AUTO_INCREMENT,
+    -> different values ​​- Example:
+    -> CustomerId INT,
+    -> item VARCHAR(40),
+    -> amount INT(25),
+    -> FOREIGN KEY (CustomerId) REFERENCES client (id) );
+Step 9 - Checking the created table (using DESC + name;)
+Step 10 - Fill the tables with data (with INSERT INTO + name + VALUES (1, "Bohdan", "Piskovskyi", 25, "Ukraine", 0507758503);
+Step 11 - Check tables (select * from + name;)
+.....
+UA Версія
+.....
+Крок 1 – відкрити MySQL Shell
+Крок 2 - Ввести пароль
+Крок 3 - Перевірити бази даних (командою SHOW databases;)
+Крок 4 – Створити нову базу даних (командою CREATE database + name;)
+Крок 5 - Вибрати потрібну базу даних (командою USE+name;)
+Крок 6 – Створити таблицю (командою CREATE table + name;
+      -> (Id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+      -> Різні значення - Приклад:
+      -> first_name VARCHAR(20) NOT NULL,
+      -> last_name VARCHAR (30) NOT NULL,
+      -> age INT(3) NULL,
+      -> country VARCHAR(15) NULL,
+      -> nubmer INT(13) NOT NULL);
+Крок 7 – Перевіряємо створену таблицю (командою DESC+name;)
+Крок 8 - Створюємо другу таблицю (командою CREATE table orders
+    -> (Id INT PRIMARY KEY AUTO_INCREMENT,
+    -> Різні значення - Приклад:
+    -> CustomerId INT,
+    -> item VARCHAR(40),
+    -> amount INT(25),
+    -> FOREIGN KEY (CustomerId) REFERENCES client (id));
+Крок 9 - Перевіряємо створену таблицю (командою DESC+name;)
+Крок 10 - Заповнити таблиці даними (командою INSERT INTO + name + VALUES (1, "Bohdan", "Piskovskyi", 25, "Ukraine", 0507758503);
+Крок 11 - Перевірити таблиці (командою select * from + name;)
+.....
+RU Версия
+.....
+Шаг 1 - открыть MySQL Shell
+Шаг 2 - Ввести пароль
+Шаг 3 - Проверить базы данных (командой SHOW databases;)
+Шаг 4 - Создать новую базу данных (командой CREATE database + name;)
+Шаг 5 - Выбрать нужную базу данных (командой USE + name;)
+Шаг 6 - Создать таблицу (командой CREATE table + name;
+      ->                (Id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+      -> разные значения - Пример:
+      -> first_name VARCHAR(20) NOT NULL,
+      -> last_name VARCHAR (30) NOT NULL,
+      -> age INT(3) NULL,
+      -> country VARCHAR(15) NULL,
+      -> nubmer INT(13) NOT NULL );
+Шаг 7 - Проверяем созданную таблицу (командой DESC + name;)
+Шаг 8 - Создаем вторую таблицу(командой CREATE table orders
+    ->                        (Id INT PRIMARY KEY AUTO_INCREMENT,
+    -> разные значения - Пример:
+    -> CustomerId INT,
+    -> item VARCHAR(40),
+    -> amount INT(25),
+    -> FOREIGN KEY (CustomerId) REFERENCES client (id) );
+Шаг 9 - Проверяем созданную таблицу (командой DESC + name;)
+Шаг 10 - Заполнить таблицы данными (командой INSERT INTO + name + VALUES (1, "Bohdan","Piskovskyi", 25, "Ukraine", 0507758503);
+Шаг 11 - Проверить таблицы(командой select * from + name;)
+ 
+ 
+
+ 

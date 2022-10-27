@@ -1,0 +1,47 @@
+.....
+EN Version
+.....
+Step 1 - Open MySQL Shell
+Step 2 - Enter password
+Step 3 - Show the table (by command select * from + name;)
+Step 4 - Make a query that will contain Where
+Step 5 - Make a query that will contain aggregation functions
+Step 6 - Make a query that will contain Join
+Step 7 - Make a query that will contain SUBQUERY
+Additionally:
+Screenshot 13: Using Alias
+Screenshot 14: same variant using Alias
+Screenshot 15: removed age limit, added column "country"
+Screenshot 16: using AS in 2 tables
+.....
+UA Версія
+.....
+Крок 1 – відкрити MySQL Shell
+Крок 2 - Ввести пароль
+Крок 3 - Показати таблицю (командою select * from + name;)
+Крок 4 - Зробити запит, який буде містити Where
+Крок 5 - Зробити запит, який буде містити функції агрегації
+Крок 6 - Зробити запит, який буде містити Join
+Крок 7 - Зробити запит, який буде містити SUBQUERY
+Додатково:
+Скріншот 13: використання Alias
+Скріншот 14: так само варіант з використанням Alias
+Скріншот 15: прибрано обмеження за віком, додано колонку "країна"
+Скриншот 16: використання AS у 2х таблицях
+.....
+RU Версия
+.....
+Шаг 1 - открыть MySQL Shell
+Шаг 2 - Ввести пароль
+Шаг 3 - Показать таблицу (командой select * from + name;)
+Шаг 4 - Сделать запрос который будет содержать Where
+Шаг 5 - Сделать запрос который будет содержать функции агрегации
+Шаг 6 - Сделать запрос который будет содержать Join
+Шаг 7 - Сделать запрос который будет содержать SUBQUERY
+Дополнительно: 
+Скриншот 13: использование Alias
+Скриншот 14: так же вариант с использованием Alias
+Скриншот 15: убрано ограничение по возрасту, добавлена колонка "страна"
+Скриншот 16: использование AS в 2х таблицах 
+
+ 
